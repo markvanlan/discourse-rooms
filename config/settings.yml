@@ -1,0 +1,4 @@
+plugins:
+  rooms_enabled:
+    default: true
+    client: true

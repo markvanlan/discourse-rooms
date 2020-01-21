@@ -1,0 +1,5 @@
+<video id="localVideo" playsinline autoplay muted></video>
+<video id="remoteVideo" playsinline autoplay></video>
+{{#unless joined}}
+  {{d-button class="btn btn-primary" action=(action "startVideo") title="rooms.start"}}
+{{/unless}}
